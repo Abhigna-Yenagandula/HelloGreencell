@@ -129,20 +129,20 @@ import os
 # ...
 
 # Azure Storage Account settings
-# AZURE_ACCOUNT_NAME = 'candata1'
-# AZURE_ACCOUNT_KEY = 'KluNBAMSUkmmfBn90ns4kZ3+FUjiGQa03kjrI+599Zh3/p5b45w+/cw+on+YgEtfQ4LqvO1Yp/un+AStvmmt6g=='
+AZURE_ACCOUNT_NAME = 'candata1'
+AZURE_ACCOUNT_KEY = 'KluNBAMSUkmmfBn90ns4kZ3+FUjiGQa03kjrI+599Zh3/p5b45w+/cw+on+YgEtfQ4LqvO1Yp/un+AStvmmt6g=='
 
-# # Azure Storage Container names for media and static files
-# AZURE_MEDIA_CONTAINER = 'media'
-# AZURE_STATIC_CONTAINER = 'static'
+# Azure Storage Container names for media and static files
+AZURE_MEDIA_CONTAINER = 'media'
+AZURE_STATIC_CONTAINER = 'static'
 
-# # Use Azure Blob Storage for media files
-# DEFAULT_FILE_STORAGE = 'storages.backends.azure_storage.AzureStorage'
-# AZURE_CUSTOM_DOMAIN = 'candata1.blob.core.windows.net'
+# Use Azure Blob Storage for media files
+DEFAULT_FILE_STORAGE = 'storages.backends.azure_storage.AzureStorage'
+AZURE_CUSTOM_DOMAIN = 'candata1.blob.core.windows.net'
 
-# # Use Azure Blob Storage for static files
-# STATIC_URL = 'https://candata1.blob.core.windows.net/media/static/'
-# STATICFILES_STORAGE = 'storages.backends.azure_storage.AzureStorage'
+# Use Azure Blob Storage for static files
+STATIC_URL = 'https://candata1.blob.core.windows.net/media/static/'
+STATICFILES_STORAGE = 'storages.backends.azure_storage.AzureStorage'
 
 # Optional: Set Azure Blob Storage as the default location for collectstatic
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
